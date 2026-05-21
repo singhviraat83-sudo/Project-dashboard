@@ -13,7 +13,6 @@ The project focuses on helping businesses make better marketing and operational 
 3. Tools Used
 - Power BI
 - Excel
-- DAX
 - Data Visualization
 4.Dashboard Visualizations
 4.1.KPI Cards
