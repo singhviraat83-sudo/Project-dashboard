@@ -1,0 +1,164 @@
+ Fuel Price Prediction Project
+
+Machine Learning Based Predictive Analysis of Fuel Prices in India Using Economic, Currency, and Geopolitical Variables
+
+1. Introduction
+
+Fuel prices in India fluctuate continuously because of multiple domestic and international factors. Since India imports a large portion of its crude oil requirements, changes in global crude oil prices, exchange rates, geopolitical conflicts, transportation costs, sanctions, and supply chain disruptions directly impact domestic fuel prices.
+
+Recent global events such as the Russia Ukraine war, Middle East tensions, OPEC production cuts, and Red Sea shipping disruptions have increased volatility in oil markets across the world. Additionally, fluctuations in the USD INR exchange rate significantly affect India’s oil import bill because crude oil is traded globally in US Dollars.
+
+This project focuses on building a machine learning based predictive model capable of forecasting fuel prices in India using historical economic and geopolitical variables.
+
+The project combines concepts from machine learning, predictive analytics, economics, geopolitical analysis, data visualization, and data preprocessing.
+
+2. Problem Statement
+
+Fuel prices are highly volatile because they are affected by several interconnected factors such as global crude oil prices, exchange rate fluctuations, inflation, transportation costs, geopolitical instability, wars, sanctions, and supply chain disruptions.
+
+The objective of this project is to analyze these variables and build a predictive machine learning model capable of forecasting fuel prices in India. The project also aims to understand the impact of geopolitical conflicts and currency fluctuations on domestic fuel prices.
+
+3. Objectives of the Project
+
+3.1 To analyze the major factors affecting fuel prices in India
+
+3.2 To study the impact of war and geopolitical instability on fuel prices
+
+3.3 To examine how currency fluctuations affect oil import costs
+
+3.4 To preprocess and clean unclean datasets
+
+3.5 To build predictive machine learning models
+
+3.6 To compare regression algorithms and evaluate their performance
+
+3.7 To identify the most influential variables affecting fuel prices
+
+3.8 To perform scenario analysis using war and currency related variables
+
+4. Technologies Used
+
+Python was used as the primary programming language for the project.
+
+Pandas and NumPy were used for data handling and numerical operations.
+
+Matplotlib and Seaborn were used for data visualization and graphical analysis.
+
+Scikit Learn was used for machine learning model development and evaluation.
+
+Google Colab was used as the development environment.
+
+GitHub was used for project hosting and version control.
+
+5. Dataset Description
+
+The dataset contains historical and simulated economic and geopolitical variables affecting fuel prices in India.
+
+The dataset intentionally contains missing values, duplicate rows, inconsistent formatting, and invalid entries to simulate real world data preprocessing scenarios.
+
+The variables used include crude oil prices, exchange rates, inflation, transportation costs, shipping costs, sanctions, war risk indicators, and fuel prices.
+
+6. Variables Used in the Dataset
+
+Crude Oil Price USD represents global crude oil prices.
+
+Brent Crude Price represents the international benchmark oil price.
+
+USD INR Exchange Rate represents the value of the Indian Rupee against the US Dollar.
+
+USD Strength Index measures the global strength of the US Dollar.
+
+Inflation Rate represents inflation within the economy.
+
+Fuel Demand Index represents market demand for fuel.
+
+Transport Cost represents transportation expenses.
+
+Excise Duty represents government taxes imposed on fuel.
+
+Refinery Cost represents the cost of refining crude oil.
+
+Forex Reserve Level represents India’s foreign exchange reserves.
+
+War Risk Index represents geopolitical instability and conflict intensity.
+
+Sanction Severity represents international trade restrictions and sanctions.
+
+Global Supply Shock represents disruptions in oil supply chains.
+
+Shipping Cost Index represents fluctuations in freight and shipping costs.
+
+Fuel Price INR is the target variable that the model predicts.
+
+7. Machine Learning Workflow
+
+The project follows a complete machine learning workflow beginning from data collection and ending with predictive analysis.
+
+The dataset was first loaded into Python using Pandas.
+
+Data cleaning techniques were applied to remove duplicate records, handle missing values, and standardize inconsistent formatting.
+
+Categorical variables were converted into numerical values using Label Encoding because machine learning models cannot process text directly.
+
+The dataset was divided into training and testing datasets to evaluate model performance properly.
+
+Multiple regression models were trained including Random Forest Regressor, Linear Regression, and Decision Tree Regressor.
+
+The models were evaluated using Mean Absolute Error, Root Mean Squared Error, and R² Score.
+
+Several visualizations were generated to analyze feature importance, fuel price trends, correlation analysis, war impact, and currency impact.
+
+8. Why Random Forest Was Used
+
+Random Forest Regressor was selected because it handles nonlinear relationships effectively and performs well on structured datasets.
+
+It reduces overfitting through ensemble learning and generally provides higher prediction accuracy compared to simple regression models.
+
+Random Forest also provides feature importance analysis which helps identify the variables that influence fuel prices the most.
+
+ 9. Visualizations Included
+
+The project includes several visualizations such as correlation heatmaps, feature importance graphs, fuel price trend graphs, actual versus predicted graphs, residual distribution graphs, war risk impact analysis, and currency impact analysis.
+
+These visualizations help explain model behavior and improve interpretability.
+
+10. Key Findings
+
+The analysis showed that crude oil prices had the strongest impact on fuel prices.
+
+The USD INR exchange rate significantly affected fuel import costs.
+
+Geopolitical instability and war increased fuel price volatility.
+
+Shipping disruptions and sanctions increased transportation and operational expenses.
+
+Among all models tested, Random Forest achieved the highest prediction accuracy.
+
+11. Future Scope
+
+The project can be further improved by integrating live fuel price APIs and real time crude oil data.
+
+Future work can include time series forecasting models such as ARIMA and Prophet.
+
+Deep learning approaches such as LSTM can also be explored for improved forecasting performance.
+
+News sentiment analysis related to geopolitical events can be integrated to improve prediction accuracy.
+
+An interactive dashboard using Streamlit can also be developed for real time prediction and visualization.
+ 12. Limitations
+
+The dataset contains partially simulated data.
+
+Sudden geopolitical shocks and unexpected market disruptions are difficult to predict accurately.
+
+Government subsidies and policy changes were not fully incorporated into the model.
+
+Real time oil market volatility may affect prediction accuracy.
+
+13. Conclusion
+
+This project demonstrates how machine learning can be applied to analyze and predict fuel prices using economic and geopolitical variables.
+
+The study highlights the strong relationship between crude oil prices, currency fluctuations, geopolitical instability, transportation disruptions, and fuel price volatility in India.
+
+The project successfully combines machine learning, economics, and geopolitical analysis to create a practical and interpretable predictive analytics model.
